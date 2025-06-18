@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ecodreams</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Archivo CSS personalizado -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Encabezado y Navegación -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Ecodreams</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-4">
+      <h1 class="text-center">Bienvenido a Ecodreams</h1>
+    </div>
+  </header>
+
+  <!-- Sección Principal -->
+  <main class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/eco2.avif" class="card-img-top img-fluid" alt="Imagen 1" />
+          <div class="card-body">
+            <h3 class="card-title">TOUR 3 DIAS / 2NOCHES</h3>
+            <p class="card-text">Explora lo mejor en 3 días llenos de aventura y cultura.
+Este tour de 3 días y 2 noches te ofrece una experiencia completa donde descubrirás paisajes impresionantes, visitarás los principales atractivos turísticos y disfrutarás de actividades culturales y recreativas. Ideal para quienes desean aprovechar al máximo su viaje, con tiempo para relajarse, conocer tradiciones locales y vivir momentos inolvidables. Incluye alojamiento cómodo, transporte y guías expertos que te acompañarán en cada paso.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/eco3.avif" class="card-img-top img-fluid" alt="Imagen 2" />
+          <div class="card-body">
+            <h3 class="card-title">TOUR 2 DIAS / 1 NOCHE</h3>
+            <p class="card-text">Escapada perfecta para desconectar y explorar.
+En este tour de 2 días y 1 noche, tendrás la oportunidad de sumergirte en la naturaleza y cultura local, visitando lugares emblemáticos y disfrutando de actividades seleccionadas que te brindarán una experiencia enriquecedora y relajante. Perfecto para quienes cuentan con tiempo limitado pero quieren aprovecharlo con un viaje memorable. Incluye alojamiento, transporte y guía.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="assets/img/eco4.avif" class="card-img-top img-fluid" alt="Imagen 3" />
+          <div class="card-body">
+            <h3 class="card-title">TOUR 1 NOCHE</h3>
+            <p class="card-text">Una experiencia rápida para renovar energías.
+Este tour de 1 noche está diseñado para quienes buscan una breve escapada sin sacrificar la calidad. Descubre puntos clave de interés, disfruta de un alojamiento confortable y participa en actividades especiales para desconectar del día a día y recargar energías. Ideal para un fin de semana corto o una pausa durante un viaje más largo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Formulario Responsivo -->
+  <section class="container my-5">
+    <h2>Contacto</h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="tu@email.com" />
+      </div>
+      <div class="mb-3">
+        <label for="comentarios" class="form-label">Comentarios</label>
+        <textarea class="form-control" id="comentarios" rows="4" placeholder="Escribe tus comentarios"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+
+    <!-- Collapse para mostrar/ocultar contenido -->
+    <p class="mt-3">
+      <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseInfo" role="button" aria-expanded="false" aria-controls="collapseInfo">
+        Más información
+      </a>
+    </p>
+    <div class="collapse" id="collapseInfo">
+      <div class="card card-body">
+        Esta es información adicional que se puede ocultar o mostrar con una suave transición usando Bootstrap Collapse.
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de Página -->
+  <footer class="text-center bg-light py-3">
+    <p>© 2025 ECODREAMS  BY BISHOX| <a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a></p>
+  </footer>
+
+  <!-- Bootstrap JS CDN (Popper + Bootstrap) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
